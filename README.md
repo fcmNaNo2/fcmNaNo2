@@ -4,7 +4,7 @@
 
 ### 🚀 UAV & Unity Developer | Automation Enthusiast
 
-[![GitHub Stats](https://stats-api.github.io/api/stats/users/fcmNaNo2/?theme=dark)](https://github.com/fcmNaNo2)
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=fcmNaNo2&theme=dark&hide_border=true&show_icons=true)
 
 </div>
 
