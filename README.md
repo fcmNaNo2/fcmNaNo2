@@ -4,8 +4,6 @@
 
 ### 🚀 UAV & Unity Developer | Automation Enthusiast
 
-[![](https://raw.githubusercontent.com/fcmNaNo2/fcmNaNo2/main/github-metrics.svg)](https://github.com/fcmNaNo2)
-
 </div>
 
 ---
