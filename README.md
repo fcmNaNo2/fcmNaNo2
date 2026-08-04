@@ -1,59 +1,35 @@
-<div align="center">
+# fanchongming
 
-# 你好，我是 fcmNaNo2
+前端 / 小程序开发，常年接外包。
 
-我主要接 Web / 小程序外包，也做自动化工具、插件和一些偏交互联动的项目。  
-比起单纯罗列“会什么”，我更在意把需求尽快做成能交付、能演示、能上线的东西。
+这两年做的基本都是交付型项目——企业官网、微信小程序、后台系统，从对需求到上线部署一个人跟完。空下来写点自己用得上的小工具，其中一个上了 VS Code 插件市场。
 
-</div>
+## 能点开看的
 
-## 我在做什么
+**[DemoTyper](https://github.com/fcmNaNo2/demotyper)** · TypeScript
+VS Code / Cursor 插件。录演示视频时你随便敲键盘，它按预设的代码往外吐，观众看着像你在流畅地写，实际上你只用专心讲。已发到插件市场。
 
-- 把业务需求落成可交付项目：官网、展示站、小程序、活动页、后台等
-- 做提升效率的工具：脚本、自动化流程、浏览器工具、VS Code / Cursor 插件
-- 做偏交互和连接层的项目：Unity 原型、设备输入桥接、UDP / ADB 这类联动能力
+**[DJIRemoteToPC](https://github.com/fcmNaNo2/DJIRemoteToPC)** · Python / Kotlin
+用 ADB 的 `getevent` 直接读 DJI RC Pro 2 的摇杆事件，50Hz 转成 UDP 丢给 Unity。遥控器上不用装任何东西。当时是给无人机仿真项目做输入层，顺手拆出来的。
 
-## 项目索引
+## 点不开的
 
-很多项目本身就是交付型项目，能不能公开不完全由我决定。  
-下面会直接列我真实做过或正在做的仓库，其中一部分是私有仓库，外部访客可能无法直接查看。
+外包项目代码归甲方，仓库都是私有的，只能说个大概：
 
-### 工具 / 插件 / 自动化
+- **微信小程序 10 来个** —— 宠物服务、校园招聘、安全培训、健康课程、实习管理、电商这类
+- **Vue 后台 / ERP** —— 商品、订单、库存那一套
+- **企业官网与展示站** —— 含服务器部署、Docker 打包、域名迁移备案
+- **Unity 仿真** —— 无人机海上巡逻与非法捕鱼拦截，比赛项目
 
-- [demotyper](https://github.com/fcmNaNo2/demotyper)：VS Code / Cursor 演示插件，支持“随便敲键盘，自动打出预设代码”
-- [okxaiPrompt](https://github.com/fcmNaNo2/okxaiPrompt)：OKX AI 相关提示词与工作流仓库
-- [dxch-site-snapshot](https://github.com/fcmNaNo2/dxch-site-snapshot)：站点快照 / 静态化相关项目
+## 手上的东西
 
-### Web / 小程序 / 业务交付
+Vue 3、TypeScript、微信小程序原生 / uni-app
+Node.js、Python
+C# / Unity
+部署自己能搞定：Docker、nginx、腾讯云
 
-- [campus-camera-rental](https://github.com/fcmNaNo2/campus-camera-rental)：校园相机租赁项目
-- [campus-recruitment-miniprogram](https://github.com/fcmNaNo2/campus-recruitment-miniprogram)：校园招聘小程序
-- [safety-training-miniapp](https://github.com/fcmNaNo2/safety-training-miniapp)：安全培训小程序
-- [health-course-mp](https://github.com/fcmNaNo2/health-course-mp)：健康课程小程序
-- [internship-mp](https://github.com/fcmNaNo2/internship-mp)：实习相关业务小程序
-- [HealSpace-mp](https://github.com/fcmNaNo2/HealSpace-mp)：情绪 / 疗愈方向小程序项目
-- [mbti-web](https://github.com/fcmNaNo2/mbti-web)：MBTI Web 项目
-- [runming-knife-website](https://github.com/fcmNaNo2/runming-knife-website)：企业官网 / 展示站项目
-- [cryp-shop-miniapp](https://github.com/fcmNaNo2/cryp-shop-miniapp)：电商类小程序项目
-- [game-plaza-static](https://github.com/fcmNaNo2/game-plaza-static)：静态站点项目
+## 关于接活
 
-### Unity / 交互 / 设备联动
+适合中小体量、要得比较急的项目。我的习惯是先把需求问清楚再动手，不喜欢做到一半发现方向错了返工。
 
-- [qingmou-kanyu](https://github.com/fcmNaNo2/qingmou-kanyu)：Unity 无人机海上巡逻与非法捕鱼拦截系统
-- [drone-patrol-system](https://github.com/fcmNaNo2/drone-patrol-system)：无人机巡逻系统相关仓库
-
-## 常用技术
-
-- 前端：TypeScript、JavaScript、HTML / CSS、微信小程序
-- 工具与自动化：Python、Node.js、Puppeteer、Docker
-- 交互与客户端：C#、Unity、UDP、ADB
-- 开发环境：Git、VS Code、Cursor
-
-## 更适合的岗位 / 合作方向
-
-- Web / 小程序前端开发
-- 工具 / 插件开发
-- 自动化脚本与流程提效
-- 需要快速打样、快速迭代、快速交付的中小项目合作
-
-如果你正在找一个能把需求快速落地的人，这里基本就是我这段时间的项目侧写。
+有事发邮件：2423996077@qq.com
