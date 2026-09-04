@@ -18,7 +18,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: 'username=fcmNaNo2&show_icons=true&theme=transparent&hide_border=true'
+          options: 'username=fcmNaNo2&custom_title=GitHub%20Stats&show_icons=true&hide_rank=true&locale=cn&theme=transparent&hide_border=true&text_bold=false&title_color=2563eb&text_color=475569&icon_color=2563eb'
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true
@@ -27,7 +27,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: 'username=fcmNaNo2&layout=compact&theme=transparent&hide_border=true'
+          options: 'username=fcmNaNo2&layout=compact&langs_count=5&locale=cn&theme=transparent&hide_border=true&text_bold=false&title_color=2563eb&text_color=475569'
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
           fail_on_error: true

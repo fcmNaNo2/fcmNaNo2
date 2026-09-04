@@ -3,9 +3,10 @@
 💻 Backend · AI · Automation
 ⚡ Building random useful stuff
 
-<img src="./profile/stats.svg" />
-
-<img src="./profile/top-langs.svg" />
+<p align="center">
+  <img src="./profile/stats.svg" height="180" alt="GitHub stats" />
+  <img src="./profile/top-langs.svg" height="180" alt="Top languages" />
+</p>
 
 ![Visitor](https://komarev.com/ghpvc/?username=fcmNaNo2\&style=flat-square)
 
