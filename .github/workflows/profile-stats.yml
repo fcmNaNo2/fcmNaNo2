@@ -14,14 +14,13 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: 'username=fcmNaNo2&custom_title=GitHub%20Stats&show_icons=true&hide_rank=true&locale=cn&theme=transparent&hide_border=true&text_bold=false&title_color=2563eb&text_color=475569&icon_color=2563eb'
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-          fail_on_error: true
+      - name: Generate streak card
+        # 贡献 + 连续打卡卡片：贡献日历含私有仓库，比只看公开仓库的星标/提交数更能反映实际工作量
+        # 失败时保留上一次的图，不让主页出现裂图
+        run: |
+          curl -fsSL -m 60 -o /tmp/streak.svg 'https://streak-stats.demolab.com/?user=fcmNaNo2&locale=zh_Hans&hide_border=true&background=00000000&ring=2563EB&fire=2563EB&currStreakNum=2563EB&sideNums=2563EB&currStreakLabel=2563EB&sideLabels=475569&dates=94A3B8&stroke=E2E8F0' \
+            && grep -q '<svg' /tmp/streak.svg && mv /tmp/streak.svg profile/streak.svg \
+            || echo 'streak card fetch failed, keep previous'
 
       - name: Generate top languages card
         uses: stats-organization/github-readme-stats-action@v2
@@ -36,6 +35,6 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add profile/stats.svg profile/top-langs.svg
+          git add profile/streak.svg profile/top-langs.svg
           git commit -m 'chore: update profile stats' || exit 0
           git push

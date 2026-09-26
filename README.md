@@ -4,7 +4,7 @@
 ⚡ Building random useful stuff
 
 <p align="center">
-  <img src="./profile/stats.svg" height="180" alt="GitHub stats" />
+  <img src="./profile/streak.svg" height="180" alt="GitHub streak" />
   <img src="./profile/top-langs.svg" height="180" alt="Top languages" />
 </p>
 
