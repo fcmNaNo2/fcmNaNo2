@@ -24,9 +24,11 @@
   <img src="https://komarev.com/ghpvc/?username=fcmNaNo2&style=for-the-badge&color=2563eb&label=PROFILE+VIEWS" alt="Profile views" />
 </p>
 
-<p align="center">
-  <img src="./profile-3d-contrib/profile-night-rainbow.svg" alt="3D contribution" />
-</p>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./profile-3d-contrib/profile-night-rainbow.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-season-animate.svg" />
+  <img src="./profile-3d-contrib/profile-season-animate.svg" alt="3D contribution" />
+</picture>
 
 <picture>
   <source
